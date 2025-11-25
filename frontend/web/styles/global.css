@@ -1,0 +1,5 @@
+/* Use @import form so editors/linters that don't understand @tailwind won't error */
+@import "tailwindcss";
+
+/* Tell Tailwind v4 to load your legacy TS config */
+@config "../tailwind.config.ts";
