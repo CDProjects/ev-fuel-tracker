@@ -1,12 +1,16 @@
+// frontend/web/pages/stations.tsx
 import { useEffect, useState } from 'react';
-import api from '../utils/api'; // 👈 using the Axios instance
+import api from '../utils/api';
 import StationCard from '../components/StationCard';
+import StationMap from '../components/StationMap';
 
 interface Station {
   id: number;
   location: string;
   provider: string;
   price: number;
+  lat: number;
+  lng: number;
 }
 
 export default function StationsPage() {
@@ -14,13 +18,13 @@ export default function StationsPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    api.get('/stations')
-      .then(res => {
+    api.get<Station[]>('/stations')
+      .then((res) => {
         setStations(res.data);
         setLoading(false);
       })
-      .catch(err => {
-        console.error("Error fetching stations:", err);
+      .catch((err) => {
+        console.error('Error fetching stations:', err);
         setLoading(false);
       });
   }, []);
@@ -28,19 +32,27 @@ export default function StationsPage() {
   return (
     <main className="p-6">
       <h1 className="text-2xl font-bold mb-4">EV Charging Stations</h1>
+
       {loading ? (
         <p>Loading...</p>
       ) : (
-        <div className="grid md:grid-cols-2 gap-4">
-          {stations.map(station => (
-            <StationCard
-              key={station.id}
-              location={station.location}
-              provider={station.provider}
-              price={station.price}
+        <>
+          {/* Map Section */}
+          <div className="h-[500px] mb-8">
+            <StationMap
+              stations={stations}
+              center={[60.3932, 25.6673]} // Porvoo default center
+              zoom={12}
             />
-          ))}
-        </div>
+          </div>
+
+          {/* Station Cards */}
+          <div className="grid md:grid-cols-2 gap-4">
+            {stations.map((st) => (
+              <StationCard key={st.id} station={st} />
+            ))}
+          </div>
+        </>
       )}
     </main>
   );
