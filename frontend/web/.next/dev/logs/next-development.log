@@ -1,1 +1,174 @@
-[00:00:02.079] Server  LOG      ✓ Ready in 1303ms
+[00:00:03.855] Server  LOG      ✓ Ready in 2.7s
+[00:00:39.232] Server  LOG      ○ Compiling / ...
+[00:01:12.186] Server  LOG      ✓ Compiled in 96ms
+[00:01:33.438] Browser LOG     Refreshing page data due to server-side change
+[00:01:33.468] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:33.471] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:33.472] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:33.474] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:33.475] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:01:33.515] Server  LOG      ✓ Compiled in 219ms
+[00:01:34.532] Browser ERROR   ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:01:41.687] Server  LOG      ✓ Compiled in 91ms
+[00:01:42.705] Browser LOG     Refreshing page data due to server-side change
+[00:01:52.439] Server  LOG      ✓ Compiled in 58ms
+[00:02:31.412] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:31.415] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:31.419] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:31.423] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:31.425] Server  ERROR    ⨯ ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[00:02:31.486] Server  LOG      ✓ Compiled in 96ms
+[00:02:32.523] Browser LOG     Refreshing page data due to server-side change
+[00:02:32.523] Browser ERROR   ./pages/_app.tsx:2:1
+Module not found: Can't resolve '../styles/globals.css'
+  1 | import type { AppProps } from "next/app";
+> 2 | import "../styles/globals.css";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  3 | import Header from "../components/Header";
+  4 |
+  5 | function MyApp({ Component, pageProps }: AppProps) {
+
+https://nextjs.org/docs/messages/module-not-found
+[00:02:56.502] Server  LOG      ✓ Compiled in 100ms
+[00:02:56.754] Browser LOG     Refreshing page data due to server-side change
+[00:03:19.568] Server  LOG      ✓ Compiled in 111ms
+[00:05:28.618] Server  LOG      ✓ Compiled in 85ms
