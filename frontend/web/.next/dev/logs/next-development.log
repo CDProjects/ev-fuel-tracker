@@ -172,3 +172,67 @@ https://nextjs.org/docs/messages/module-not-found
 [00:02:56.754] Browser LOG     Refreshing page data due to server-side change
 [00:03:19.568] Server  LOG      ✓ Compiled in 111ms
 [00:05:28.618] Server  LOG      ✓ Compiled in 85ms
+[00:14:05.900] Server  LOG      ✓ Compiled in 151ms
+[00:27:03.253] Server  LOG      ✓ Compiled in 166ms
+[00:27:10.394] Browser ERROR   Error fetching stations: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":5000,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/stations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"handleError@http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2515:25\n"}
+[00:27:22.531] Server  ERROR   C:\Users\email\Projects\ev-fuel-tracker\frontend\web\.next\dev\server\chunks\ssr\[turbopack]_runtime.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:22.532] Server  ERROR   C:\Users\email\Projects\ev-fuel-tracker\frontend\web\.next\dev\server\chunks\ssr\[root-of-the-server]__976b5261._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:27:22.537] Server  ERROR    ⨯ Error: Failed to load external module react-leaflet: ReferenceError: window is not defined
+[00:27:24.285] Browser ERROR   uncaughtError: Error: Failed to load external module react-leaflet: ReferenceError: window is not defined
+[00:29:02.879] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:29:02.910] Server  LOG      ✓ Compiled in 179ms
+[00:29:08.040] Browser ERROR   Error fetching stations: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":5000,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/stations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"handleError@http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2515:25\n"}
+[00:31:18.463] Server  LOG      ✓ Compiled in 127ms
+[00:31:19.744] Browser ERROR   ./utils/api.ts:1:2
+Parsing ecmascript source code failed
+> 1 | ## Error Type
+    |  ^
+  2 | Runtime AxiosError
+  3 |
+  4 | ## Error Message
+
+Expected ident
+
+Import traces:
+  Browser:
+    ./utils/api.ts
+    ./pages/stations.tsx
+
+  SSR:
+    ./utils/api.ts
+    ./pages/stations.tsx
+[00:31:19.744] Browser ERROR   ./utils/api.ts
+Code generation for chunk item errored
+An error occurred while generating the chunk item [project]/utils/api.ts [ssr] (ecmascript)
+
+Caused by:
+- CJS module can't be async.
+
+Debug info:
+- An error occurred while generating the chunk item [project]/utils/api.ts [ssr] (ecmascript)
+- Execution of <ModuleChunkItem as EcmascriptChunkItem>::content_with_async_module_info failed
+- Execution of EcmascriptChunkItemContent::new failed
+- CJS module can't be async.
+
+Import traces:
+  Browser:
+    ./utils/api.ts
+    ./pages/stations.tsx
+
+  SSR:
+    ./utils/api.ts
+    ./pages/stations.tsx
+[00:31:34.030] Server  LOG      ✓ Compiled in 57ms
+[00:31:37.337] Browser ERROR   Error fetching stations: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"http://localhost:5000/api","env":{},"headers":{"Accept":"application/json, text/plain, */*"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":5000,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/stations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"handleError@http://localhost:3000/_next/static/chunks/node_modules_axios_lib_2c8bf6cb._.js:2515:25\n"}
+[03:08:11.946] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ForwardRef(ContainerComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
+[03:25:26.399] Browser ERROR   %o
+
+%s
+
+%s
+ {} The above error occurred in the <ForwardRef(ContainerComponent)> component. React will try to recreate this component tree from scratch using the error boundary you provided, PagesDevOverlayErrorBoundary.
