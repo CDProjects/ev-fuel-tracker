@@ -366,6 +366,10 @@
     display: grid;
   }
 
+  .h-\[350px\] {
+    height: 350px;
+  }
+
   .h-\[450px\] {
     height: 450px;
   }
@@ -526,8 +530,20 @@
   }
 
   @media (min-width: 48rem) {
+    .md\:h-\[450px\] {
+      height: 450px;
+    }
+  }
+
+  @media (min-width: 48rem) {
     .md\:grid-cols-2 {
       grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (min-width: 64rem) {
+    .lg\:h-\[500px\] {
+      height: 500px;
     }
   }
 }
